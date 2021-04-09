@@ -498,6 +498,18 @@ a{
 
 
 /* footer */
+footer{
+    font-size: 85%;
+    color: #2c2c2c;
+    background-color: #fff;
+}
+footer hr {
+    border: 1px solid #0397D3;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    bottom: 0px;
+}
 .cont{
     display: flex;
 }
@@ -516,11 +528,11 @@ a{
 .social-media a i{
     font-size: 25px;
     padding: 4px 4px;
-  color: rgba(206, 55, 88, 0.7);
+    color: rgba(206, 55, 88, 0.7);
 }
 .list-item li a{
     text-decoration: none;
-    color: black;
+    color: rgb(75, 75, 75);
    
 }
 .list-item li a:hover{
@@ -539,5 +551,5 @@ a{
     align-items: center;
     justify-content: center;
     display: flex;
-    background: rgb(173, 166, 166);
+    background: #F1F2F4;
 }
